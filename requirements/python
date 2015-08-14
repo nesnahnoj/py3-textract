@@ -4,7 +4,10 @@ argcomplete
 chardet
 python-pptx>=0.5.1
 python-docx
-pdfminer==20140328
+
+# Removed pdfminer and replaced with pdfminer.six
+pdfminer.six==20140915
+
 beautifulsoup4
 xlrd
 EbookLib
